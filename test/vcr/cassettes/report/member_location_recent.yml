@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://report-demo.adcrws.com/v1/members/API_RUBY_GEM_TEST/locations/recent
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 23:10:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"c93c9ce4adce02186714eea8c731eb95"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3d51a774-5a57-40af-a70c-8a01e940141f
+      X-Runtime:
+      - '6.484404'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "info": {
+            "member_key": "API_RUBY_GEM_TEST",
+            "time_period": "2015-01-01 to now",
+            "report_env": "demo",
+            "organization_id": 160,
+            "program_id": 235589813
+          },
+          "member_usage": [
+            {
+              "postal_code": "84047",
+              "api_call_date": "2015-11-03T22:50:19.108Z"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:10:10 GMT
+recorded_with: VCR 3.0.1

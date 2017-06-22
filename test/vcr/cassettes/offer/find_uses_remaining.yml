@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://offer-stage.adcrws.com/v1/offers/13775493/uses_remaining?member_key=API_RUBY_GEM_TEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 20:16:54 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"ad271dfff84d3ce91cb4cfd101b129b1"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0a930de1-b704-4fa7-b36e-19849eccf15a
+      X-Runtime:
+      - '0.023213'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "offers": [
+            {
+              "offer_uses_remaining": {
+                "offer_key": 13775493,
+                "uses_this_period": 2,
+                "uses_remaining": "unlimited",
+                "number_of_uses_remaining": null,
+                "last_used_on_date": "2016-02-22T12:48:00.000Z",
+                "next_available_use_date": null,
+                "usable": true
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:16:56 GMT
+recorded_with: VCR 3.0.1

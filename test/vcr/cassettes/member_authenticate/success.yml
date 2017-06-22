@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://mms-stage.adcrws.com/v1/auth
+    body:
+      encoding: UTF-8
+      string: '{"email":"ben@test.com","password":"password"}'
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10110
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 22 Feb 2016 23:05:58 GMT
+    body:
+      encoding: UTF-8
+      string: '{"users":[{"program_id":2412,"program_key":"TYP123","program_name":"Access
+        Perks Demo","organization_id":2000896,"organization_key":"TYPDEMO","organization_name":"Access
+        Perks Demo","member_id":89665693,"member_key":"226865","email":"ben@test.com","first_name":"Ben","last_name":"Eggett","reg_id":1077263,"cvt":"5d7c9927d4cc1720e1fff4681a3dc6e51c9145dd","postal_code":"84010","roles":[],"program_provisioning_method":"SHARED_SECRET","user_has_password":true}],"members":[{"organization":{"organization_id":2000896,"organization_key":"TYPDEMO","name":"Access
+        Perks Demo"},"program":{"program_id":2412,"program_key":"TYP123","name":"Access
+        Perks Demo","provisioning_method":"SHARED_SECRET"},"member":{"member_id":89665693,"member_key":"226865","email":"ben@test.com","first_name":"Ben","last_name":"Eggett","cvt":"5d7c9927d4cc1720e1fff4681a3dc6e51c9145dd","postal_code":"84010"},"user":{"email":"ben@test.com","first_name":"Ben","last_name":"Eggett","reg_id":1077263,"roles":[],"has_password":true,"password_expired":false}}]}'
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:06:00 GMT
+recorded_with: VCR 3.0.1

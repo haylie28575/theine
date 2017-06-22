@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://campaign.adcrws.com/v1/spots/2849?member_key=API_RUBY_GEM_TEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '3600'
+      Access-Control-Allow-Headers:
+      - x-requested-with
+      X-Application-Context:
+      - application:prod:10120
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 22 Feb 2016 20:16:55 GMT
+    body:
+      encoding: UTF-8
+      string: '{"spots":[{"key":2849,"links":[{"rel":"self","href":"http://campaign.adcrws.com/v1/spots/2849"},{"rel":"campaign","href":"http://campaign.adcrws.com/v1/campaigns/236"},{"rel":"offer_for_spot","href":"https://offer.adcrws.com/v1/offers?store_key=19019157&offer_group_key=4181048&member_key=API_RUBY_GEM_TEST&product=include"}],"spot_name":"24
+        Hour Fitness","spot_text":"3 Day Free Gym Membership Trial for 24 Hour Fitness.","spot_ranking":2,"spot_image_url":"https://static.accessdevelopment.com/brand/8c739f293686fa95029956932606df0b0c1e0061/original.png","campaign_resource":{"key":236,"links":[{"rel":"self","href":"http://campaign.adcrws.com/v1/campaigns/236"},{"rel":"spots","href":"http://campaign.adcrws.com/v1/spots/campaign/236"}],"campaign_name":"New
+        Year''s Resolutions","campaign_description":"","campaign_ranking":1}}]}'
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:16:58 GMT
+recorded_with: VCR 3.0.1

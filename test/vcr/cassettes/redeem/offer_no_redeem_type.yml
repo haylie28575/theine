@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://redeem-stage.adcrws.com/v1/redeem/13775493/?member_key=API_RUBY_GEM_TEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Etag:
+      - '"0c7ffd8775f2ac08507a265043e9274a0"'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '359'
+      Date:
+      - Mon, 22 Feb 2016 20:31:20 GMT
+    body:
+      encoding: UTF-8
+      string: '{"links":[{"rel":"instore","href":"http://redeem-stage.adcrws.com/v1/redeem/13775493/instore?member_key=API_RUBY_GEM_TEST"},{"rel":"instore_print","href":"http://redeem-stage.adcrws.com/v1/redeem/13775493/instore_print?member_key=API_RUBY_GEM_TEST"},{"rel":"link","href":"http://redeem-stage.adcrws.com/v1/redeem/13775493/link?member_key=API_RUBY_GEM_TEST"}]}'
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:31:23 GMT
+recorded_with: VCR 3.0.1

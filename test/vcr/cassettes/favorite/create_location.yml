@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://mms-stage.adcrws.com/v1/members/API_TEST/favorites/locations/5454532
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Access-Token:
+      - "<TOKEN_WITHOUT_FILTERS_WITH_PROGRAM_OFFERS>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10110
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 23 Feb 2016 17:15:14 GMT
+    body:
+      encoding: UTF-8
+      string: '{"links":{"show_favorite_locations":"http://mms-stage.adcrws.com/v1/members/API_TEST/favorites/locations","show_favorite_offers":"http://mms-stage.adcrws.com/v1/members/API_TEST/favorites/offers","show_favorite_stores":"http://mms-stage.adcrws.com/v1/members/API_TEST/favorites/stores"},"favorites":[{"links":{"show_favorite_location":"http://mms-stage.adcrws.com/v1/members/API_TEST/favorites/locations/5454532"},"favorited_date":"2016-02-23T17:12:49.966+0000","favorite_type":"location"}]}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 17:15:15 GMT
+recorded_with: VCR 3.0.1

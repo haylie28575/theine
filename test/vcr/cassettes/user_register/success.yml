@@ -1,0 +1,150 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://mms-stage.adcrws.com/v1/register
+    body:
+      encoding: UTF-8
+      string: '{"program_id":2412,"first_name":"RubyGem","last_name":"Test","postal_code":84047,"email":"rubygemtest-fbc0142b@accessdevelopment.com","password":"test1234","shared_secret":"thanks","program_url":"saversclub.accessdevelopment.com"}'
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10120
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 23 Feb 2016 17:54:26 GMT
+    body:
+      encoding: UTF-8
+      string: '{"users":[{"program_id":2412,"program_key":"TYP123","program_name":"Access
+        Perks Demo","organization_id":2000896,"organization_key":"TYPDEMO","organization_name":"Access
+        Perks Demo","member_id":93256794,"member_key":"227060","email":"rubygemtest-fbc0142b@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","reg_id":1298124,"cvt":"df1034cf4160844afc4999b3adb4d4daec9fcc95","postal_code":"84047","roles":[],"program_provisioning_method":"SHARED_SECRET","user_has_password":true}],"members":[{"organization":{"organization_id":2000896,"organization_key":"TYPDEMO","name":"Access
+        Perks Demo"},"program":{"program_id":2412,"program_key":"TYP123","name":"Access
+        Perks Demo","provisioning_method":"SHARED_SECRET"},"member":{"member_id":93256794,"member_key":"227060","email":"rubygemtest-fbc0142b@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","cvt":"df1034cf4160844afc4999b3adb4d4daec9fcc95","postal_code":"84047"},"user":{"email":"rubygemtest-fbc0142b@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","reg_id":1298124,"roles":[],"has_password":true,"password_expired":false}}]}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 17:54:27 GMT
+- request:
+    method: post
+    uri: https://mms-stage.adcrws.com/v1/register
+    body:
+      encoding: UTF-8
+      string: '{"program_id":2412,"first_name":"RubyGem","last_name":"Test","postal_code":84047,"email":"rubygemtest-c8f922c4@accessdevelopment.com","password":"test1234","shared_secret":"thanks","program_url":"saversclub.accessdevelopment.com"}'
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10110
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 23 Feb 2016 17:55:35 GMT
+    body:
+      encoding: UTF-8
+      string: '{"users":[{"program_id":2412,"program_key":"TYP123","program_name":"Access
+        Perks Demo","organization_id":2000896,"organization_key":"TYPDEMO","organization_name":"Access
+        Perks Demo","member_id":93256795,"member_key":"227061","email":"rubygemtest-c8f922c4@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","reg_id":1298125,"cvt":"25cb61a228db3db62a0cb6cd740accc5762d3e99","postal_code":"84047","roles":[],"program_provisioning_method":"SHARED_SECRET","user_has_password":true}],"members":[{"organization":{"organization_id":2000896,"organization_key":"TYPDEMO","name":"Access
+        Perks Demo"},"program":{"program_id":2412,"program_key":"TYP123","name":"Access
+        Perks Demo","provisioning_method":"SHARED_SECRET"},"member":{"member_id":93256795,"member_key":"227061","email":"rubygemtest-c8f922c4@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","cvt":"25cb61a228db3db62a0cb6cd740accc5762d3e99","postal_code":"84047"},"user":{"email":"rubygemtest-c8f922c4@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","reg_id":1298125,"roles":[],"has_password":true,"password_expired":false}}]}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 17:55:36 GMT
+- request:
+    method: post
+    uri: https://mms-stage.adcrws.com/v1/register
+    body:
+      encoding: UTF-8
+      string: '{"program_id":2412,"first_name":"RubyGem","last_name":"Test","postal_code":84047,"email":"rubygemtest-6@accessdevelopment.com","password":"test1234","shared_secret":"thanks","program_url":"saversclub.accessdevelopment.com"}'
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10120
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 23 Feb 2016 18:10:07 GMT
+    body:
+      encoding: UTF-8
+      string: '{"users":[{"program_id":2412,"program_key":"TYP123","program_name":"Access
+        Perks Demo","organization_id":2000896,"organization_key":"TYPDEMO","organization_name":"Access
+        Perks Demo","member_id":93256796,"member_key":"227062","email":"rubygemtest-6@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","reg_id":1298126,"cvt":"bfabd2645fb429561bf3aabc3c091b12d904c025","postal_code":"84047","roles":[],"program_provisioning_method":"SHARED_SECRET","user_has_password":true}],"members":[{"organization":{"organization_id":2000896,"organization_key":"TYPDEMO","name":"Access
+        Perks Demo"},"program":{"program_id":2412,"program_key":"TYP123","name":"Access
+        Perks Demo","provisioning_method":"SHARED_SECRET"},"member":{"member_id":93256796,"member_key":"227062","email":"rubygemtest-6@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","cvt":"bfabd2645fb429561bf3aabc3c091b12d904c025","postal_code":"84047"},"user":{"email":"rubygemtest-6@accessdevelopment.com","first_name":"RubyGem","last_name":"Test","reg_id":1298126,"roles":[],"has_password":true,"password_expired":false}}]}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 18:10:07 GMT
+recorded_with: VCR 3.0.1

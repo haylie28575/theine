@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://offer-stage.adcrws.com/v1/stores?member_key=API_RUBY_GEM_TEST&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 20:17:07 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"7c92334b892c06d17052b72e50160a55"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b72b9f16-9c46-4196-95c3-04741c42c284
+      X-Runtime:
+      - '0.015883'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "info": {
+            "total_results": 26312,
+            "current_page": 1,
+            "total_pages": 26312,
+            "results_per_page": 1
+          },
+          "stores": [
+            {
+              "search_relevance": 1.0,
+              "store_key": 261817158,
+              "name": "Pho 85",
+              "description": "",
+              "logo_url": "https://static-demo.accessdevelopment.com/icons/store.png",
+              "national": false,
+              "active_location_count": 1,
+              "active_offer_count": 1,
+              "store_categories": [
+                {
+                  "category_name": "Casual & Fine Dining",
+                  "category_key": 1009,
+                  "category_parent_key": 39,
+                  "category_parent_name": "Dining & Food",
+                  "category_type": "subcategory"
+                }
+              ],
+              "links": {
+                "show_store": "https://offer-stage.adcrws.com/v1/stores/261817158",
+                "find_offers_for_this_store": "https://offer-stage.adcrws.com/v1/offers?store_key=261817158",
+                "find_locations_for_this_store": "https://offer-stage.adcrws.com/v1/locations?store_key=261817158"
+              }
+            }
+          ],
+          "links": {
+            "next_page": "https://offer-stage.adcrws.com/v1/stores?member_key=API_RUBY_GEM_TEST&page=2&per_page=1"
+          }
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:17:09 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://report-demo.adcrws.com/v1/members/API_RUBY_GEM_TEST/queries/recent
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 23:10:00 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"bb19e0d1cb68c1044602f186cc21863a"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8e25b1b2-2d6f-433c-8525-6b02214dce82
+      X-Runtime:
+      - '2.203884'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "info": {
+            "member_key": "API_RUBY_GEM_TEST",
+            "time_period": "2015-01-01 to now",
+            "report_env": "demo",
+            "organization_id": 160,
+            "program_id": 235589813
+          },
+          "member_usage": [
+            {
+              "query": "pizza",
+              "api_call_date": "2015-11-03T22:29:38.617Z"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:10:03 GMT
+recorded_with: VCR 3.0.1

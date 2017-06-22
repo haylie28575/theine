@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://mms-stage.adcrws.com/v1/register
+    body:
+      encoding: UTF-8
+      string: '{"program_id":2412,"first_name":"RubyGem","last_name":"Test","postal_code":84047,"email":null,"password":"test1234","shared_secret":"thanks","program_url":"saversclub.accessdevelopment.com"}'
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10120
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 22 Feb 2016 23:05:53 GMT
+    body:
+      encoding: UTF-8
+      string: '{"message":"email is null or empty string.","status":400}'
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:05:56 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://mms-stage.adcrws.com/v1/members/226872/devices?program_id=2412
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10110
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 22 Feb 2016 20:31:17 GMT
+    body:
+      encoding: UTF-8
+      string: '{"info":{"total_results":8},"devices":[{"udid":"9AC5650E-75CE-441B-A920-1A5DBE8A1A1C","os":"iPhone
+        OS","os_version":"9.2.1","device_type":"iPhone","device_model":"Unknown iPhone","device_version":null,"software_version":"0.1.0","last_used_at":"2016-01-27T16:58:19.000+0000","name":"iPhone","push_opt_in":true,"push_token":"35d1dbf098bd519145c3c303a2d8de21800cb9726d3cbdafe381909f9a8f35b2","disabled":false,"created_dts":"2016-01-13T00:45:35.175+0000","modified_dts":"2016-01-27T16:58:22.759+0000","disabled_dts":null},{"udid":"680B04B4-6823-4B51-9A87-3FF0BF2C2772","os":"iPhone
+        OS","os_version":"9.2.1","device_type":"iPhone","device_model":"Unknown iPhone","device_version":null,"software_version":"0.1.0","last_used_at":"2016-01-27T16:59:00.000+0000","name":"iPhone","push_opt_in":true,"push_token":"7642398c05ab8085e0924d3096a3b80791af0fd58dc1650b474c94503c167c2b","disabled":false,"created_dts":"2016-01-12T17:25:14.105+0000","modified_dts":"2016-01-27T16:59:03.941+0000","disabled_dts":null},{"udid":"FF353D3B-88FC-4F37-9734-FEEB49CE84AC","os":"iPhone
+        OS","os_version":"8.4","device_type":"iPhone Simulator","device_model":"iPhone
+        Simulator","device_version":null,"software_version":"0.1.0","last_used_at":"2016-01-15T22:21:37.000+0000","name":"iPhone
+        Simulator","push_opt_in":false,"push_token":"","disabled":false,"created_dts":"2016-01-15T22:20:55.484+0000","modified_dts":"2016-01-15T22:21:38.287+0000","disabled_dts":null},{"udid":"55B6B7B0-D0B7-4E31-A844-BF62ADDC7680","os":"iPhone
+        OS","os_version":"9.2","device_type":"iPhone","device_model":"iPhone Simulator","device_version":null,"software_version":"0.1.0","last_used_at":"2016-01-21T20:31:19.000+0000","name":"iPhone
+        Simulator","push_opt_in":false,"push_token":"","disabled":false,"created_dts":"2016-01-21T16:42:44.258+0000","modified_dts":"2016-01-21T20:31:19.951+0000","disabled_dts":null},{"udid":"302B4553-D7AD-40EF-8790-2F8D9353AA8E","os":"iPhone
+        OS","os_version":"9.2","device_type":"iPhone","device_model":"iPhone Simulator","device_version":null,"software_version":"0.1.0","last_used_at":"2016-01-23T00:15:57.000+0000","name":"iPhone
+        Simulator","push_opt_in":false,"push_token":"","disabled":false,"created_dts":"2016-01-20T16:39:17.522+0000","modified_dts":"2016-01-23T00:15:58.822+0000","disabled_dts":null},{"udid":"58FB56FA-F05A-409F-9AA2-0930EA305506","os":"iPhone
+        OS","os_version":"9.2","device_type":"iPhone","device_model":"iPhone Simulator","device_version":null,"software_version":"0.1.0","last_used_at":"2016-01-27T21:08:11.000+0000","name":"iPhone
+        Simulator","push_opt_in":false,"push_token":"","disabled":false,"created_dts":"2016-01-27T21:08:48.664+0000","modified_dts":"2016-01-27T21:08:12.019+0000","disabled_dts":null},{"udid":"4A95957E-1045-43BC-96B6-0BF30DC8B849","os":"iPhone
+        OS","os_version":"9.2","device_type":"iPhone","device_model":"iPhone Simulator","device_version":null,"software_version":"0.1.0","last_used_at":"2016-01-27T23:56:28.000+0000","name":"iPhone
+        Simulator","push_opt_in":false,"push_token":"","disabled":false,"created_dts":"2016-01-27T20:54:55.672+0000","modified_dts":"2016-01-27T23:56:29.154+0000","disabled_dts":null},{"udid":"25AB674D-4F16-4FD1-9693-41B48BC212D2","os":"iPhone
+        OS","os_version":"9.2","device_type":"iPhone","device_model":"iPhone Simulator","device_version":null,"software_version":"0.1.0","last_used_at":"2016-01-27T18:48:49.000+0000","name":"iPhone
+        Simulator","push_opt_in":false,"push_token":"","disabled":false,"created_dts":"2016-01-25T18:41:14.424+0000","modified_dts":"2016-01-27T18:48:50.750+0000","disabled_dts":null}]}'
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:31:20 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,164 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://offer-stage.adcrws.com/v1/categories/51?member_key=API_RUBY_GEM_TEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 20:17:06 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"0da8a935a289db05cf1497e6fa600f1d"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c8e6dd8a-0428-4ae1-a877-0bb783a7a064
+      X-Runtime:
+      - '0.020545'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "info": {
+            "total_results": 1,
+            "current_page": 1,
+            "total_pages": 1,
+            "results_per_page": 1
+          },
+          "categories": [
+            {
+              "category_name": "Automotive",
+              "category_key": 51,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=51"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Auto Body & Paint",
+                  "category_key": 1000,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1000",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1000"
+                  }
+                },
+                {
+                  "category_name": "Auto Parts",
+                  "category_key": 1001,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1001",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1001"
+                  }
+                },
+                {
+                  "category_name": "Auto Sales & Warranties",
+                  "category_key": 1006,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1006",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1006"
+                  }
+                },
+                {
+                  "category_name": "Auto Service & Repair",
+                  "category_key": 1002,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1002",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1002"
+                  }
+                },
+                {
+                  "category_name": "Car Wash & Detail",
+                  "category_key": 1003,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1003",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1003"
+                  }
+                },
+                {
+                  "category_name": "Gas Station",
+                  "category_key": 1004,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1004",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1004"
+                  }
+                },
+                {
+                  "category_name": "Tires",
+                  "category_key": 1005,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1005",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1005"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:17:08 GMT
+recorded_with: VCR 3.0.1

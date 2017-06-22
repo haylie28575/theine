@@ -1,0 +1,495 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://report-stage.adcrws.com/v1/members/API_RUBY_GEM_TEST/offer_redemptions
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 20:31:25 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"793c8ff6b247dde0fd57b3f771ac2661"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 25e6cc93-bab4-421e-90c9-4f387694dd61
+      X-Runtime:
+      - '0.026177'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "info": {
+            "total_results": 6,
+            "current_page": 1,
+            "total_pages": 1,
+            "results_per_page": 6,
+            "total_savings": 30
+          },
+          "offer_redemptions": [
+            {
+              "usage_redeem_key": 2915840,
+              "redeem_key": 1002,
+              "redeem_type": "instore_digital_coupon",
+              "usage_date": "2016-02-22T13:31:21.000Z",
+              "offer": {
+                "offer_key": 13775493,
+                "offer_group_key": 4171584,
+                "title": "Free breadsticks with purchase of any large pizza at regular menu price.  ",
+                "started_on": "2015-10-25T07:00:00.000Z",
+                "expires_on": "2016-03-24T06:59:59.999Z",
+                "logo_url": "https://static-stage.accessdevelopment.com/brand/02f732819c6ea7c4352dbcb19ccab83db134f63d/original.png",
+                "national_offer": false,
+                "uses_per_period": "unlimited",
+                "offer_set": "DISCOUNT",
+                "savings_amount": "$5.00",
+                "minimum_purchase": "19.0",
+                "maximum_award": "0.0",
+                "offer_value": 5,
+                "discount_type": "amount",
+                "discount_value": "5.0",
+                "promotion_code": true,
+                "redemption_methods": [
+                  "instore",
+                  "instore_print",
+                  "link"
+                ],
+                "categories": [
+                  {
+                    "category_name": "Fast Food",
+                    "category_key": 1008,
+                    "category_parent_key": 39,
+                    "category_parent_name": "Dining & Food",
+                    "category_type": "subcategory"
+                  }
+                ],
+                "offer_store": {
+                  "name": "Pizza Hut",
+                  "description": "Pizza Hut is the home of America's favorite pizza, delivering delicious hot pizza and WingStreet buffalo wings straight to your door. We offer a variety of pizza styles, including our flagship Pan Pizza, as well as Thin n' Crispy, Stuffed Crust, Hand Tossed, and Sicilian. Other menu items include pasta, salads, and sandwiches. Pizza Hut offers dine-in service at its characteristic red-roofed restaurants, as well as carry-out and delivery service",
+                  "store_key": 18939060,
+                  "physical_location": {
+                    "location_name": "Pizza Hut",
+                    "web_address": "http://www.pizzahut.com/",
+                    "description": null,
+                    "location_key": 244932,
+                    "postal_code": "32817",
+                    "country": "US",
+                    "street_address": "10002 University Blvd",
+                    "extended_street_address": "",
+                    "city_locality": "Orlando",
+                    "state_region": "FL",
+                    "geolocation_array": [
+                      -81.24415,
+                      28.5962
+                    ],
+                    "geolocation": {
+                      "lat": 28.5962,
+                      "lon": -81.24415
+                    },
+                    "phone_number": "407-679-7575"
+                  }
+                }
+              },
+              "member": {
+                "member_key": "API_RUBY_GEM_TEST",
+                "program_key": "200156",
+                "program_name": "RWS API - No Filters No Limit",
+                "organization_key": "160",
+                "organization_name": "Access Development"
+              }
+            },
+            {
+              "usage_redeem_key": 2915839,
+              "redeem_key": 1002,
+              "redeem_type": "instore_digital_coupon",
+              "usage_date": "2016-02-22T13:16:53.000Z",
+              "offer": {
+                "offer_key": 13775493,
+                "offer_group_key": 4171584,
+                "title": "Free breadsticks with purchase of any large pizza at regular menu price.  ",
+                "started_on": "2015-10-25T07:00:00.000Z",
+                "expires_on": "2016-03-24T06:59:59.999Z",
+                "logo_url": "https://static-stage.accessdevelopment.com/brand/02f732819c6ea7c4352dbcb19ccab83db134f63d/original.png",
+                "national_offer": false,
+                "uses_per_period": "unlimited",
+                "offer_set": "DISCOUNT",
+                "savings_amount": "$5.00",
+                "minimum_purchase": "19.0",
+                "maximum_award": "0.0",
+                "offer_value": 5,
+                "discount_type": "amount",
+                "discount_value": "5.0",
+                "promotion_code": true,
+                "redemption_methods": [
+                  "instore",
+                  "instore_print",
+                  "link"
+                ],
+                "categories": [
+                  {
+                    "category_name": "Fast Food",
+                    "category_key": 1008,
+                    "category_parent_key": 39,
+                    "category_parent_name": "Dining & Food",
+                    "category_type": "subcategory"
+                  }
+                ],
+                "offer_store": {
+                  "name": "Pizza Hut",
+                  "description": "Pizza Hut is the home of America's favorite pizza, delivering delicious hot pizza and WingStreet buffalo wings straight to your door. We offer a variety of pizza styles, including our flagship Pan Pizza, as well as Thin n' Crispy, Stuffed Crust, Hand Tossed, and Sicilian. Other menu items include pasta, salads, and sandwiches. Pizza Hut offers dine-in service at its characteristic red-roofed restaurants, as well as carry-out and delivery service",
+                  "store_key": 18939060,
+                  "physical_location": {
+                    "location_name": "Pizza Hut",
+                    "web_address": "http://www.pizzahut.com/",
+                    "description": null,
+                    "location_key": 244932,
+                    "postal_code": "32817",
+                    "country": "US",
+                    "street_address": "10002 University Blvd",
+                    "extended_street_address": "",
+                    "city_locality": "Orlando",
+                    "state_region": "FL",
+                    "geolocation_array": [
+                      -81.24415,
+                      28.5962
+                    ],
+                    "geolocation": {
+                      "lat": 28.5962,
+                      "lon": -81.24415
+                    },
+                    "phone_number": "407-679-7575"
+                  }
+                }
+              },
+              "member": {
+                "member_key": "API_RUBY_GEM_TEST",
+                "program_key": "200156",
+                "program_name": "RWS API - No Filters No Limit",
+                "organization_key": "160",
+                "organization_name": "Access Development"
+              }
+            },
+            {
+              "usage_redeem_key": 2915838,
+              "redeem_key": 1002,
+              "redeem_type": "instore_digital_coupon",
+              "usage_date": "2016-02-22T12:48:00.000Z",
+              "offer": {
+                "offer_key": 13775493,
+                "offer_group_key": 4171584,
+                "title": "Free breadsticks with purchase of any large pizza at regular menu price.  ",
+                "started_on": "2015-10-25T07:00:00.000Z",
+                "expires_on": "2016-03-24T06:59:59.999Z",
+                "logo_url": "https://static-stage.accessdevelopment.com/brand/02f732819c6ea7c4352dbcb19ccab83db134f63d/original.png",
+                "national_offer": false,
+                "uses_per_period": "unlimited",
+                "offer_set": "DISCOUNT",
+                "savings_amount": "$5.00",
+                "minimum_purchase": "19.0",
+                "maximum_award": "0.0",
+                "offer_value": 5,
+                "discount_type": "amount",
+                "discount_value": "5.0",
+                "promotion_code": true,
+                "redemption_methods": [
+                  "instore",
+                  "instore_print",
+                  "link"
+                ],
+                "categories": [
+                  {
+                    "category_name": "Fast Food",
+                    "category_key": 1008,
+                    "category_parent_key": 39,
+                    "category_parent_name": "Dining & Food",
+                    "category_type": "subcategory"
+                  }
+                ],
+                "offer_store": {
+                  "name": "Pizza Hut",
+                  "description": "Pizza Hut is the home of America's favorite pizza, delivering delicious hot pizza and WingStreet buffalo wings straight to your door. We offer a variety of pizza styles, including our flagship Pan Pizza, as well as Thin n' Crispy, Stuffed Crust, Hand Tossed, and Sicilian. Other menu items include pasta, salads, and sandwiches. Pizza Hut offers dine-in service at its characteristic red-roofed restaurants, as well as carry-out and delivery service",
+                  "store_key": 18939060,
+                  "physical_location": {
+                    "location_name": "Pizza Hut",
+                    "web_address": "http://www.pizzahut.com/",
+                    "description": null,
+                    "location_key": 244932,
+                    "postal_code": "32817",
+                    "country": "US",
+                    "street_address": "10002 University Blvd",
+                    "extended_street_address": "",
+                    "city_locality": "Orlando",
+                    "state_region": "FL",
+                    "geolocation_array": [
+                      -81.24415,
+                      28.5962
+                    ],
+                    "geolocation": {
+                      "lat": 28.5962,
+                      "lon": -81.24415
+                    },
+                    "phone_number": "407-679-7575"
+                  }
+                }
+              },
+              "member": {
+                "member_key": "API_RUBY_GEM_TEST",
+                "program_key": "200156",
+                "program_name": "RWS API - No Filters No Limit",
+                "organization_key": "160",
+                "organization_name": "Access Development"
+              }
+            },
+            {
+              "usage_redeem_key": 2915837,
+              "redeem_key": 1002,
+              "redeem_type": "instore_digital_coupon",
+              "usage_date": "2016-02-22T12:33:43.000Z",
+              "offer": {
+                "offer_key": 13775493,
+                "offer_group_key": 4171584,
+                "title": "Free breadsticks with purchase of any large pizza at regular menu price.  ",
+                "started_on": "2015-10-25T07:00:00.000Z",
+                "expires_on": "2016-03-24T06:59:59.999Z",
+                "logo_url": "https://static-stage.accessdevelopment.com/brand/02f732819c6ea7c4352dbcb19ccab83db134f63d/original.png",
+                "national_offer": false,
+                "uses_per_period": "unlimited",
+                "offer_set": "DISCOUNT",
+                "savings_amount": "$5.00",
+                "minimum_purchase": "19.0",
+                "maximum_award": "0.0",
+                "offer_value": 5,
+                "discount_type": "amount",
+                "discount_value": "5.0",
+                "promotion_code": true,
+                "redemption_methods": [
+                  "instore",
+                  "instore_print",
+                  "link"
+                ],
+                "categories": [
+                  {
+                    "category_name": "Fast Food",
+                    "category_key": 1008,
+                    "category_parent_key": 39,
+                    "category_parent_name": "Dining & Food",
+                    "category_type": "subcategory"
+                  }
+                ],
+                "offer_store": {
+                  "name": "Pizza Hut",
+                  "description": "Pizza Hut is the home of America's favorite pizza, delivering delicious hot pizza and WingStreet buffalo wings straight to your door. We offer a variety of pizza styles, including our flagship Pan Pizza, as well as Thin n' Crispy, Stuffed Crust, Hand Tossed, and Sicilian. Other menu items include pasta, salads, and sandwiches. Pizza Hut offers dine-in service at its characteristic red-roofed restaurants, as well as carry-out and delivery service",
+                  "store_key": 18939060,
+                  "physical_location": {
+                    "location_name": "Pizza Hut",
+                    "web_address": "http://www.pizzahut.com/",
+                    "description": null,
+                    "location_key": 244932,
+                    "postal_code": "32817",
+                    "country": "US",
+                    "street_address": "10002 University Blvd",
+                    "extended_street_address": "",
+                    "city_locality": "Orlando",
+                    "state_region": "FL",
+                    "geolocation_array": [
+                      -81.24415,
+                      28.5962
+                    ],
+                    "geolocation": {
+                      "lat": 28.5962,
+                      "lon": -81.24415
+                    },
+                    "phone_number": "407-679-7575"
+                  }
+                }
+              },
+              "member": {
+                "member_key": "API_RUBY_GEM_TEST",
+                "program_key": "200156",
+                "program_name": "RWS API - No Filters No Limit",
+                "organization_key": "160",
+                "organization_name": "Access Development"
+              }
+            },
+            {
+              "usage_redeem_key": 2915621,
+              "redeem_key": 1002,
+              "redeem_type": "instore_digital_coupon",
+              "usage_date": "2016-02-01T17:13:37.000Z",
+              "offer": {
+                "offer_key": 13775479,
+                "offer_group_key": 4171584,
+                "title": "Free breadsticks with purchase of any large pizza at regular menu price.  ",
+                "started_on": "2015-10-25T07:00:00.000Z",
+                "expires_on": "2016-03-24T06:59:59.999Z",
+                "logo_url": "https://static-stage.accessdevelopment.com/brand/02f732819c6ea7c4352dbcb19ccab83db134f63d/original.png",
+                "national_offer": false,
+                "uses_per_period": "unlimited",
+                "offer_set": "DISCOUNT",
+                "savings_amount": "$5.00",
+                "minimum_purchase": "19.0",
+                "maximum_award": "0.0",
+                "offer_value": 5,
+                "discount_type": "amount",
+                "discount_value": "5.0",
+                "promotion_code": true,
+                "redemption_methods": [
+                  "instore",
+                  "instore_print",
+                  "link"
+                ],
+                "categories": [
+                  {
+                    "category_name": "Fast Food",
+                    "category_key": 1008,
+                    "category_parent_key": 39,
+                    "category_parent_name": "Dining & Food",
+                    "category_type": "subcategory"
+                  }
+                ],
+                "offer_store": {
+                  "name": "Pizza Hut",
+                  "description": "Pizza Hut is the home of America's favorite pizza, delivering delicious hot pizza and WingStreet buffalo wings straight to your door. We offer a variety of pizza styles, including our flagship Pan Pizza, as well as Thin n' Crispy, Stuffed Crust, Hand Tossed, and Sicilian. Other menu items include pasta, salads, and sandwiches. Pizza Hut offers dine-in service at its characteristic red-roofed restaurants, as well as carry-out and delivery service",
+                  "store_key": 18939060,
+                  "physical_location": {
+                    "location_name": "Pizza Hut",
+                    "web_address": "http://www.pizzahut.com/",
+                    "description": null,
+                    "location_key": 244970,
+                    "postal_code": "32819",
+                    "country": "US",
+                    "street_address": "8255 International Dr Ste 144-B",
+                    "extended_street_address": null,
+                    "city_locality": "Orlando",
+                    "state_region": "FL",
+                    "geolocation_array": [
+                      -81.4819,
+                      28.46655
+                    ],
+                    "geolocation": {
+                      "lat": 28.46655,
+                      "lon": -81.4819
+                    },
+                    "phone_number": "407-354-1582"
+                  }
+                }
+              },
+              "member": {
+                "member_key": "API_RUBY_GEM_TEST",
+                "program_key": "200156",
+                "program_name": "RWS API - No Filters No Limit",
+                "organization_key": "160",
+                "organization_name": "Access Development"
+              }
+            },
+            {
+              "usage_redeem_key": 2915620,
+              "redeem_key": 1002,
+              "redeem_type": "instore_digital_coupon",
+              "usage_date": "2016-02-01T17:13:32.000Z",
+              "offer": {
+                "offer_key": 13775479,
+                "offer_group_key": 4171584,
+                "title": "Free breadsticks with purchase of any large pizza at regular menu price.  ",
+                "started_on": "2015-10-25T07:00:00.000Z",
+                "expires_on": "2016-03-24T06:59:59.999Z",
+                "logo_url": "https://static-stage.accessdevelopment.com/brand/02f732819c6ea7c4352dbcb19ccab83db134f63d/original.png",
+                "national_offer": false,
+                "uses_per_period": "unlimited",
+                "offer_set": "DISCOUNT",
+                "savings_amount": "$5.00",
+                "minimum_purchase": "19.0",
+                "maximum_award": "0.0",
+                "offer_value": 5,
+                "discount_type": "amount",
+                "discount_value": "5.0",
+                "promotion_code": true,
+                "redemption_methods": [
+                  "instore",
+                  "instore_print",
+                  "link"
+                ],
+                "categories": [
+                  {
+                    "category_name": "Fast Food",
+                    "category_key": 1008,
+                    "category_parent_key": 39,
+                    "category_parent_name": "Dining & Food",
+                    "category_type": "subcategory"
+                  }
+                ],
+                "offer_store": {
+                  "name": "Pizza Hut",
+                  "description": "Pizza Hut is the home of America's favorite pizza, delivering delicious hot pizza and WingStreet buffalo wings straight to your door. We offer a variety of pizza styles, including our flagship Pan Pizza, as well as Thin n' Crispy, Stuffed Crust, Hand Tossed, and Sicilian. Other menu items include pasta, salads, and sandwiches. Pizza Hut offers dine-in service at its characteristic red-roofed restaurants, as well as carry-out and delivery service",
+                  "store_key": 18939060,
+                  "physical_location": {
+                    "location_name": "Pizza Hut",
+                    "web_address": "http://www.pizzahut.com/",
+                    "description": null,
+                    "location_key": 244970,
+                    "postal_code": "32819",
+                    "country": "US",
+                    "street_address": "8255 International Dr Ste 144-B",
+                    "extended_street_address": null,
+                    "city_locality": "Orlando",
+                    "state_region": "FL",
+                    "geolocation_array": [
+                      -81.4819,
+                      28.46655
+                    ],
+                    "geolocation": {
+                      "lat": 28.46655,
+                      "lon": -81.4819
+                    },
+                    "phone_number": "407-354-1582"
+                  }
+                }
+              },
+              "member": {
+                "member_key": "API_RUBY_GEM_TEST",
+                "program_key": "200156",
+                "program_name": "RWS API - No Filters No Limit",
+                "organization_key": "160",
+                "organization_name": "Access Development"
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:31:28 GMT
+recorded_with: VCR 3.0.1

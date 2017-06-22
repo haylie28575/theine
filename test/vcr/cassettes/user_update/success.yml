@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://mms-stage.adcrws.com/v1/users
+    body:
+      encoding: UTF-8
+      string: '{"email":"cs@test.com","password":"password","program_id":"2412","postal_code":"84101","member_key":"226872"}'
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10120
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 23 Feb 2016 17:30:06 GMT
+    body:
+      encoding: UTF-8
+      string: '{"users":[{"program_id":2412,"program_key":"TYP123","program_name":"Access
+        Perks Demo","organization_id":2000896,"organization_key":"TYPDEMO","organization_name":"Access
+        Perks Demo","member_id":89738626,"member_key":"226872","email":"cs@test.com","first_name":"Cody","last_name":"Stringham","reg_id":1084059,"cvt":"6fa6c66c4edc07b767f147a6e5fc614c20797ef0","postal_code":"84101","roles":[],"program_provisioning_method":"SHARED_SECRET","user_has_password":true}],"members":[{"organization":{"organization_id":2000896,"organization_key":"TYPDEMO","name":"Access
+        Perks Demo"},"program":{"program_id":2412,"program_key":"TYP123","name":"Access
+        Perks Demo","provisioning_method":"SHARED_SECRET"},"member":{"member_id":89738626,"member_key":"226872","email":"cs@test.com","first_name":"Cody","last_name":"Stringham","cvt":"6fa6c66c4edc07b767f147a6e5fc614c20797ef0","postal_code":"84101"},"user":{"email":"cs@test.com","first_name":"Cody","last_name":"Stringham","reg_id":1084059,"roles":[],"has_password":true,"password_expired":false}}]}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 17:30:07 GMT
+recorded_with: VCR 3.0.1

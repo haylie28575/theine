@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://token-stage.adcrws.com/v1/oauth_applications/9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 23:26:14 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"2640e5943e06503452381af7cdfb7989"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5b71bf9e-2fcf-4073-89e0-7b2688af7c75
+      X-Runtime:
+      - '0.039212'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "oauth_applications": [
+            {
+              "id": 9,
+              "name": "Great FUN - Connexions",
+              "owner_id": 106,
+              "owner_type": "Program",
+              "domain_urls": null,
+              "scopes": [
+                "api",
+                "amt",
+                "docs",
+                "internal"
+              ],
+              "active_tokens": [
+                "e09a8a65c9d733656252ce480ce125e37100592adf5449b0570d7ebc3df85b95",
+                "c0c578c72e0a7200403511d55671b793f11eece61cb1b724f81b131bc5f19d66"
+              ],
+              "filter": {
+                "filter_id": 3,
+                "filter_name": "All Categories except EDUCATION ONLY"
+              },
+              "links": null
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:26:17 GMT
+recorded_with: VCR 3.0.1

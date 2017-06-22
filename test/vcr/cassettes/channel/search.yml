@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://campaign-stage.adcrws.com/v1/channels?member_key=API_RUBY_GEM_TEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Max-Age:
+      - '3600'
+      Access-Control-Allow-Headers:
+      - x-requested-with
+      X-Application-Context:
+      - application:stage:10120
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 22 Feb 2016 20:16:54 GMT
+    body:
+      encoding: UTF-8
+      string: '{"channels":[{"key":20888894,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20888894"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20888894"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20888894"}],"channel_name":"Web
+        Site","channel_type":"WEBSITE","channel_identifier":"0001","channel_description":null},{"key":20888895,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20888895"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20888895"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20888895"}],"channel_name":"EMail","channel_type":"EMAIL","channel_identifier":"0002","channel_description":null},{"key":20888897,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20888897"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20888897"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20888897"}],"channel_name":"Paper
+        Mailer","channel_type":"PAPER_MAILER","channel_identifier":"0004","channel_description":null},{"key":20888898,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20888898"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20888898"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20888898"}],"channel_name":"Mobile
+        Application","channel_type":"MOBILE","channel_identifier":"0005","channel_description":null},{"key":20889900,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20889900"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20889900"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20889900"}],"channel_name":"Featured
+        Brands","channel_type":"AWP_FEATURED_BRANDS","channel_identifier":"0008","channel_description":"AWP
+        Featured Brands Channel"},{"key":20889901,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20889901"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20889901"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20889901"}],"channel_name":"Selected
+        Brands","channel_type":"AWP_SELECTED_BRANDS","channel_identifier":"0009","channel_description":"AWP
+        Selected Brands Channel"},{"key":20889902,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20889902"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20889902"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20889902"}],"channel_name":"Home
+        Page Banner","channel_type":"HOME_PAGE_BANNER","channel_identifier":"0010","channel_description":"Appears
+        on the home page of AWP with larger real estate for ad campaigns"},{"key":20889903,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20889903"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20889903"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20889903"}],"channel_name":"ACS
+        Group 1","channel_type":"ACS_GROUP_1","channel_identifier":"0011","channel_description":"Appears
+        on the first tab on the landing page of All City Savings Application"},{"key":20889904,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20889904"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20889904"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20889904"}],"channel_name":"ACS
+        Group 2","channel_type":"ACS_GROUP_2","channel_identifier":"0012","channel_description":"Appears
+        on the second tab on the landing page of All City Savings Application"},{"key":20889905,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20889905"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20889905"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20889905"}],"channel_name":"ACS
+        Group 3","channel_type":"ACS_GROUP_3","channel_identifier":"0013","channel_description":"Appears
+        on the third tab on the landing page of All City Savings Application"},{"key":20889898,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20889898"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20889898"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20889898"}],"channel_name":"Mobile
+        Banner","channel_type":"MOBILE_BANNER","channel_identifier":"0006","channel_description":null},{"key":20889899,"links":[{"rel":"self","href":"http://campaign-stage.adcrws.com/v1/channels/20889899"},{"rel":"campaigns","href":"http://campaign-stage.adcrws.com/v1/campaigns?channel_key=20889899"},{"rel":"spots","href":"http://campaign-stage.adcrws.com/v1/spots/channel/20889899"}],"channel_name":"Seasonal
+        Offers","channel_type":"SEASONAL_OFFERS","channel_identifier":"0007","channel_description":null}]}'
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:16:57 GMT
+recorded_with: VCR 3.0.1

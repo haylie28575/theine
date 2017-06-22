@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://mms-stage.adcrws.com/v1/members/226872?program_id=2412
+    body:
+      encoding: UTF-8
+      string: '{"birth_date":"2016-01-01"}'
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10110
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 22 Feb 2016 20:31:17 GMT
+    body:
+      encoding: UTF-8
+      string: '{"username":"cs@test.com","birth_date":"2016-01-01","gender":null,"home_address":null,"default_location":null,"mobile_phone_number":null,"created_dts":"2015-12-15T00:33:37.372+0000","modified_dts":"2016-02-02T00:13:07.879+0000","last_registered_dts":"2015-10-07T19:57:56.456+0000","active":true,"messaging":null,"first_name":"Cody","last_name":"Stringham","member_id":89738626,"program_id":2412,"member_key":"226872","program_key":"TYP123","cvt":"6fa6c66c4edc07b767f147a6e5fc614c20797ef0","address":null,"lat_lon_address":null}'
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:31:21 GMT
+recorded_with: VCR 3.0.1

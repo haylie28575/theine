@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://token-stage.adcrws.com/v1/oauth_applications/9/access_tokens/11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 23:26:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"14461abf8ef3aeb8b2435ee3f8ec97b1"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 8d4509a4-e9b6-4622-85ab-d4f0b77f4c07
+      X-Runtime:
+      - '0.048897'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "access_tokens": [
+            {
+              "application_id": 9,
+              "token": "68214283dc396fcb2f5c6442dae8c461718be2df77a19cc822f1f4f2953e13f3",
+              "expires_in": null,
+              "revoked_at": "2015-04-07T20:51:38.223Z",
+              "created_at": "2015-04-02T22:35:55.225Z",
+              "oauth_access_token_id": 11,
+              "application_name": "Great FUN - Connexions",
+              "application_owner_id": 9,
+              "application_owner_type": "Program",
+              "program_id": 106,
+              "program_name": "Great FUN",
+              "program_customer_identifier": "10792",
+              "program_start_dts": "2012-04-12T21:10:31.633Z",
+              "program_end_dts": "2025-12-31T00:00:00.000Z",
+              "organization_id": 100,
+              "organization_name": "AFFINION",
+              "organization_customer_identifier": "100",
+              "filter_id": 3,
+              "filter_name": "All Categories except EDUCATION ONLY",
+              "filter": "{\"offers\":[{\"terms\":{\"offer_set\":[\"DISCOUNT\"]}},{\"or\":[{\"terms\":{\"categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"categories\":[{\"or\":[{\"terms\":{\"category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"stores\":[{\"or\":[{\"terms\":{\"store_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"store_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"locations\":[{\"or\":[{\"terms\":{\"location_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"location_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}]}",
+              "program_filter_id": 2,
+              "domains": [
+
+              ],
+              "application_scopes": [
+                "api",
+                "amt",
+                "docs",
+                "internal"
+              ],
+              "token_status": "revoked"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:26:16 GMT
+recorded_with: VCR 3.0.1

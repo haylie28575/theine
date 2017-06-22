@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://mms-stage.adcrws.com/v1/members/API_TEST/favorites/stores/18938324
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Access-Token:
+      - "<TOKEN_WITHOUT_FILTERS_WITH_PROGRAM_OFFERS>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10110
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 23 Feb 2016 17:15:14 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJsaW5rcyI6eyJzaG93X2Zhdm9yaXRlX2xvY2F0aW9ucyI6Imh0dHA6Ly9t
+        bXMtc3RhZ2UuYWRjcndzLmNvbS92MS9tZW1iZXJzL0FQSV9URVNUL2Zhdm9y
+        aXRlcy9sb2NhdGlvbnMiLCJzaG93X2Zhdm9yaXRlX29mZmVycyI6Imh0dHA6
+        Ly9tbXMtc3RhZ2UuYWRjcndzLmNvbS92MS9tZW1iZXJzL0FQSV9URVNUL2Zh
+        dm9yaXRlcy9vZmZlcnMiLCJzaG93X2Zhdm9yaXRlX3N0b3JlcyI6Imh0dHA6
+        Ly9tbXMtc3RhZ2UuYWRjcndzLmNvbS92MS9tZW1iZXJzL0FQSV9URVNUL2Zh
+        dm9yaXRlcy9zdG9yZXMifSwiZmF2b3JpdGVzIjpbeyJsaW5rcyI6eyJzaG93
+        X2Zhdm9yaXRlX3N0b3JlIjoiaHR0cDovL21tcy1zdGFnZS5hZGNyd3MuY29t
+        L3YxL21lbWJlcnMvQVBJX1RFU1QvZmF2b3JpdGVzL3N0b3Jlcy8xODkzODMy
+        NCJ9LCJmYXZvcml0ZWRfZGF0ZSI6IjIwMTYtMDItMjNUMTc6MTU6MTIuOTk4
+        KzAwMDAiLCJzdG9yZSI6eyJzZWFyY2hfcmVsZXZhbmNlIjoxLjAsInN0b3Jl
+        X2tleSI6MTg5MzgzMjQsIm5hbWUiOiJDb2xkIFN0b25lIENyZWFtZXJ5Iiwi
+        ZGVzY3JpcHRpb24iOiJJZiBpdCBoYXMgYW55dGhpbmcgdG8gZG8gd2l0aCBp
+        Y2UgY3JlYW0sIGl0IGhhcyBldmVyeXRoaW5nIHRvIGRvIHdpdGggQ29sZCBT
+        dG9uZSBDcmVhbWVyeS4gRnJvbSB1bmlxdWUgaWNlIGNyZWFtIGNyZWF0aW9u
+        cyB0byBzbW9vdGhpZXMsIGNha2VzIGFuZCBzaGFrZXMg4oCTIG5vYm9keSBz
+        ZXJ2ZXMgdXAgdGhlIHVsdGltYXRlIGluZHVsZ2VuY2UgbGlrZSBDb2xkIFN0
+        b25lLiAgSXQgc3RhcnRzIHdpdGggdXNpbmcgdGhlIGhpZ2hlc3QgcXVhbGl0
+        eSBpbmdyZWRpZW50cyBhbmQgZW5kcyB3aXRoIG91ciBzaWduYXR1cmUgcHJv
+        Y2VzcyBmb3IgcHJlcGFyaW5nIHlvdXIgY3VzdG9tIGNyZWF0aW9uIG9uIGEg
+        ZnJvemVuIGdyYW5pdGUgc3RvbmUuIiwibG9nb191cmwiOiJodHRwczovL3N0
+        YXRpYy1zdGFnZS5hY2Nlc3NkZXZlbG9wbWVudC5jb20vYnJhbmQvY2RiOWFj
+        NDk1YmY0MzI4MGI4MWJhNWNiMzlhOGU1OTZhNGQ4OGFkMS9vcmlnaW5hbC5w
+        bmciLCJuYXRpb25hbCI6ZmFsc2UsImFjdGl2ZV9sb2NhdGlvbl9jb3VudCI6
+        Mjc1LCJhY3RpdmVfb2ZmZXJfY291bnQiOjI3OCwic3RvcmVfY2F0ZWdvcmll
+        cyI6W3siY2F0ZWdvcnlfbmFtZSI6IkNhc3VhbCAmIEZpbmUgRGluaW5nIiwi
+        Y2F0ZWdvcnlfa2V5IjoxMDA5LCJjYXRlZ29yeV9wYXJlbnRfa2V5IjozOSwi
+        Y2F0ZWdvcnlfcGFyZW50X25hbWUiOiJEaW5pbmcgJiBGb29kIiwiY2F0ZWdv
+        cnlfdHlwZSI6InN1YmNhdGVnb3J5In0seyJjYXRlZ29yeV9uYW1lIjoiU3Bl
+        Y2lhbHR5IEZvb2RzICYgR2lmdHMiLCJjYXRlZ29yeV9rZXkiOjEwMTAsImNh
+        dGVnb3J5X3BhcmVudF9rZXkiOjM5LCJjYXRlZ29yeV9wYXJlbnRfbmFtZSI6
+        IkRpbmluZyAmIEZvb2QiLCJjYXRlZ29yeV90eXBlIjoic3ViY2F0ZWdvcnki
+        fSx7ImNhdGVnb3J5X25hbWUiOiJGYXN0IEZvb2QiLCJjYXRlZ29yeV9rZXki
+        OjEwMDgsImNhdGVnb3J5X3BhcmVudF9rZXkiOjM5LCJjYXRlZ29yeV9wYXJl
+        bnRfbmFtZSI6IkRpbmluZyAmIEZvb2QiLCJjYXRlZ29yeV90eXBlIjoic3Vi
+        Y2F0ZWdvcnkifSx7ImNhdGVnb3J5X25hbWUiOiJEZXNzZXJ0cyAmIFNuYWNr
+        cyIsImNhdGVnb3J5X2tleSI6MTAwNywiY2F0ZWdvcnlfcGFyZW50X2tleSI6
+        MzksImNhdGVnb3J5X3BhcmVudF9uYW1lIjoiRGluaW5nICYgRm9vZCIsImNh
+        dGVnb3J5X3R5cGUiOiJzdWJjYXRlZ29yeSJ9XSwibGlua3MiOnsic2hvd19z
+        dG9yZSI6Imh0dHBzOi8vb2ZmZXItc3RhZ2UuYWRjcndzLmNvbS92MS9zdG9y
+        ZXMvMTg5MzgzMjQiLCJmaW5kX29mZmVyc19mb3JfdGhpc19zdG9yZSI6Imh0
+        dHBzOi8vb2ZmZXItc3RhZ2UuYWRjcndzLmNvbS92MS9vZmZlcnM/c3RvcmVf
+        a2V5PTE4OTM4MzI0IiwiZmluZF9sb2NhdGlvbnNfZm9yX3RoaXNfc3RvcmUi
+        OiJodHRwczovL29mZmVyLXN0YWdlLmFkY3J3cy5jb20vdjEvbG9jYXRpb25z
+        P3N0b3JlX2tleT0xODkzODMyNCJ9fSwiZmF2b3JpdGVfdHlwZSI6InN0b3Jl
+        In1dfQ==
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 17:15:16 GMT
+recorded_with: VCR 3.0.1

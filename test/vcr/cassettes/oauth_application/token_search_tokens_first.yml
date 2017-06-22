@@ -1,0 +1,242 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://token-stage.adcrws.com/v1/oauth_applications/9/access_tokens?per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 23:26:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"d74f503c9be84187ed53874b43e3b80a"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 725aee8d-408f-47ae-bafd-9103d4b49dfc
+      X-Runtime:
+      - '0.097686'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "access_tokens": [
+            {
+              "application_id": 9,
+              "token": "68214283dc396fcb2f5c6442dae8c461718be2df77a19cc822f1f4f2953e13f3",
+              "expires_in": null,
+              "revoked_at": "2015-04-07T20:51:38.223Z",
+              "created_at": "2015-04-02T22:35:55.225Z",
+              "oauth_access_token_id": 11,
+              "application_name": "Great FUN - Connexions",
+              "application_owner_id": 9,
+              "application_owner_type": "Program",
+              "program_id": 106,
+              "program_name": "Great FUN",
+              "program_customer_identifier": "10792",
+              "program_start_dts": "2012-04-12T21:10:31.633Z",
+              "program_end_dts": "2025-12-31T00:00:00.000Z",
+              "organization_id": 100,
+              "organization_name": "AFFINION",
+              "organization_customer_identifier": "100",
+              "filter_id": 3,
+              "filter_name": "All Categories except EDUCATION ONLY",
+              "filter": "{\"offers\":[{\"terms\":{\"offer_set\":[\"DISCOUNT\"]}},{\"or\":[{\"terms\":{\"categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"categories\":[{\"or\":[{\"terms\":{\"category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"stores\":[{\"or\":[{\"terms\":{\"store_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"store_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"locations\":[{\"or\":[{\"terms\":{\"location_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"location_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}]}",
+              "program_filter_id": 2,
+              "domains": [
+
+              ],
+              "application_scopes": [
+                "api",
+                "amt",
+                "docs",
+                "internal"
+              ],
+              "token_status": "revoked",
+              "links": {
+                "show_token": "https://token-stage.adcrws.com/v1/oauth_applications/9/access_tokens/11"
+              }
+            },
+            {
+              "application_id": 9,
+              "token": "e09a8a65c9d733656252ce480ce125e37100592adf5449b0570d7ebc3df85b95",
+              "expires_in": null,
+              "revoked_at": null,
+              "created_at": "2015-04-07T20:52:03.641Z",
+              "oauth_access_token_id": 501,
+              "application_name": "Great FUN - Connexions",
+              "application_owner_id": 9,
+              "application_owner_type": "Program",
+              "program_id": 106,
+              "program_name": "Great FUN",
+              "program_customer_identifier": "10792",
+              "program_start_dts": "2012-04-12T21:10:31.633Z",
+              "program_end_dts": "2025-12-31T00:00:00.000Z",
+              "organization_id": 100,
+              "organization_name": "AFFINION",
+              "organization_customer_identifier": "100",
+              "filter_id": 3,
+              "filter_name": "All Categories except EDUCATION ONLY",
+              "filter": "{\"offers\":[{\"terms\":{\"offer_set\":[\"DISCOUNT\"]}},{\"or\":[{\"terms\":{\"categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"categories\":[{\"or\":[{\"terms\":{\"category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"stores\":[{\"or\":[{\"terms\":{\"store_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"store_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"locations\":[{\"or\":[{\"terms\":{\"location_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"location_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}]}",
+              "program_filter_id": 2,
+              "domains": [
+
+              ],
+              "application_scopes": [
+                "api",
+                "amt",
+                "docs",
+                "internal"
+              ],
+              "token_status": "valid",
+              "links": {
+                "show_token": "https://token-stage.adcrws.com/v1/oauth_applications/9/access_tokens/501"
+              }
+            },
+            {
+              "application_id": 9,
+              "token": "cfe9e37bb0b3ea4244760291d90216837167e9b0e721585947c123e001319aef",
+              "expires_in": null,
+              "revoked_at": "2015-04-07T20:52:11.814Z",
+              "created_at": "2015-04-07T19:59:16.555Z",
+              "oauth_access_token_id": 500,
+              "application_name": "Great FUN - Connexions",
+              "application_owner_id": 9,
+              "application_owner_type": "Program",
+              "program_id": 106,
+              "program_name": "Great FUN",
+              "program_customer_identifier": "10792",
+              "program_start_dts": "2012-04-12T21:10:31.633Z",
+              "program_end_dts": "2025-12-31T00:00:00.000Z",
+              "organization_id": 100,
+              "organization_name": "AFFINION",
+              "organization_customer_identifier": "100",
+              "filter_id": 3,
+              "filter_name": "All Categories except EDUCATION ONLY",
+              "filter": "{\"offers\":[{\"terms\":{\"offer_set\":[\"DISCOUNT\"]}},{\"or\":[{\"terms\":{\"categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"categories\":[{\"or\":[{\"terms\":{\"category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"stores\":[{\"or\":[{\"terms\":{\"store_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"store_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"locations\":[{\"or\":[{\"terms\":{\"location_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"location_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}]}",
+              "program_filter_id": 2,
+              "domains": [
+
+              ],
+              "application_scopes": [
+                "api",
+                "amt",
+                "docs",
+                "internal"
+              ],
+              "token_status": "revoked",
+              "links": {
+                "show_token": "https://token-stage.adcrws.com/v1/oauth_applications/9/access_tokens/500"
+              }
+            },
+            {
+              "application_id": 9,
+              "token": "ad68ea1539b2cf47d33d3866650b50cb68212c6353b60e9e07921b11b479221c",
+              "expires_in": null,
+              "revoked_at": "2015-07-09T20:33:30.070Z",
+              "created_at": "2015-07-09T19:34:36.800Z",
+              "oauth_access_token_id": 3812,
+              "application_name": "Great FUN - Connexions",
+              "application_owner_id": 9,
+              "application_owner_type": "Program",
+              "program_id": 106,
+              "program_name": "Great FUN",
+              "program_customer_identifier": "10792",
+              "program_start_dts": "2012-04-12T21:10:31.633Z",
+              "program_end_dts": "2025-12-31T00:00:00.000Z",
+              "organization_id": 100,
+              "organization_name": "AFFINION",
+              "organization_customer_identifier": "100",
+              "filter_id": 3,
+              "filter_name": "All Categories except EDUCATION ONLY",
+              "filter": "{\"offers\":[{\"terms\":{\"offer_set\":[\"DISCOUNT\"]}},{\"or\":[{\"terms\":{\"categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"categories\":[{\"or\":[{\"terms\":{\"category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"stores\":[{\"or\":[{\"terms\":{\"store_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"store_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"locations\":[{\"or\":[{\"terms\":{\"location_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"location_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}]}",
+              "program_filter_id": 2,
+              "domains": [
+
+              ],
+              "application_scopes": [
+                "api",
+                "amt",
+                "docs",
+                "internal"
+              ],
+              "token_status": "revoked",
+              "links": {
+                "show_token": "https://token-stage.adcrws.com/v1/oauth_applications/9/access_tokens/3812"
+              }
+            },
+            {
+              "application_id": 9,
+              "token": "c0c578c72e0a7200403511d55671b793f11eece61cb1b724f81b131bc5f19d66",
+              "expires_in": null,
+              "revoked_at": null,
+              "created_at": "2015-07-28T16:12:19.388Z",
+              "oauth_access_token_id": 3831,
+              "application_name": "Great FUN - Connexions",
+              "application_owner_id": 9,
+              "application_owner_type": "Program",
+              "program_id": 106,
+              "program_name": "Great FUN",
+              "program_customer_identifier": "10792",
+              "program_start_dts": "2012-04-12T21:10:31.633Z",
+              "program_end_dts": "2025-12-31T00:00:00.000Z",
+              "organization_id": 100,
+              "organization_name": "AFFINION",
+              "organization_customer_identifier": "100",
+              "filter_id": 3,
+              "filter_name": "All Categories except EDUCATION ONLY",
+              "filter": "{\"offers\":[{\"terms\":{\"offer_set\":[\"DISCOUNT\"]}},{\"or\":[{\"terms\":{\"categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"categories\":[{\"or\":[{\"terms\":{\"category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"stores\":[{\"or\":[{\"terms\":{\"store_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"store_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}],\"locations\":[{\"or\":[{\"terms\":{\"location_categories.category_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}},{\"terms\":{\"location_categories.category_parent_key\":[51,58,54,60,39,59,48,53,1039,44,56,50,45,55,38]}}]}]}",
+              "program_filter_id": 2,
+              "domains": [
+
+              ],
+              "application_scopes": [
+                "api",
+                "amt",
+                "docs",
+                "internal"
+              ],
+              "token_status": "valid",
+              "links": {
+                "show_token": "https://token-stage.adcrws.com/v1/oauth_applications/9/access_tokens/3831"
+              }
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:26:16 GMT
+recorded_with: VCR 3.0.1

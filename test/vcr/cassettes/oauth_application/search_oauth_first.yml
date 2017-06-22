@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://token-stage.adcrws.com/v1/oauth_applications?per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 23:26:12 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"9a25641923a20fd5288927ec32e6910d"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2dbf228c-27ef-406d-a0f1-a412fdf1952e
+      X-Runtime:
+      - '0.084730'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "info": {
+            "total_results": 3960,
+            "results_per_page": 1,
+            "current_page": 1,
+            "total_pages": 3960
+          },
+          "oauth_applications": [
+            {
+              "id": 9,
+              "name": "Great FUN - Connexions",
+              "owner_id": 106,
+              "owner_type": "Program",
+              "domain_urls": null,
+              "scopes": [
+                "api",
+                "amt",
+                "docs",
+                "internal"
+              ],
+              "active_tokens": [
+                "e09a8a65c9d733656252ce480ce125e37100592adf5449b0570d7ebc3df85b95",
+                "c0c578c72e0a7200403511d55671b793f11eece61cb1b724f81b131bc5f19d66"
+              ],
+              "filter": {
+                "filter_id": 3,
+                "filter_name": "All Categories except EDUCATION ONLY"
+              },
+              "links": {
+                "show_application": "https://token-stage.adcrws.com/v1/oauth_applications/9"
+              }
+            }
+          ],
+          "links": {
+            "next_page": "https://report-stage.adcrws.com/v1/oauth_applications?page=2"
+          }
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:26:15 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,1588 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://offer-stage.adcrws.com/v1/categories?member_key=API_RUBY_GEM_TEST
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 20:17:05 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"8bbd902aa8faedc9431caae7a3917687"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 85124a74-ed62-4709-9efd-a7f73aec53cf
+      X-Runtime:
+      - '0.141164'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "info": {
+            "total_results": 16,
+            "current_page": 1,
+            "total_pages": 1,
+            "results_per_page": 16
+          },
+          "categories": [
+            {
+              "category_name": "Automotive",
+              "category_key": 51,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=51"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Auto Body & Paint",
+                  "category_key": 1000,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1000",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1000"
+                  }
+                },
+                {
+                  "category_name": "Auto Parts",
+                  "category_key": 1001,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1001",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1001"
+                  }
+                },
+                {
+                  "category_name": "Auto Sales & Warranties",
+                  "category_key": 1006,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1006",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1006"
+                  }
+                },
+                {
+                  "category_name": "Auto Service & Repair",
+                  "category_key": 1002,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1002",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1002"
+                  }
+                },
+                {
+                  "category_name": "Car Wash & Detail",
+                  "category_key": 1003,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1003",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1003"
+                  }
+                },
+                {
+                  "category_name": "Gas Station",
+                  "category_key": 1004,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1004",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1004"
+                  }
+                },
+                {
+                  "category_name": "Tires",
+                  "category_key": 1005,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Automotive",
+                  "category_parent_key": 51,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1005",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/51",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1005"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Car Rental",
+              "category_key": 58,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/58",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=58"
+              },
+              "subcategories": [
+
+              ]
+            },
+            {
+              "category_name": "Condos & Resorts",
+              "category_key": 54,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/54",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=54"
+              },
+              "subcategories": [
+
+              ]
+            },
+            {
+              "category_name": "Cruise",
+              "category_key": 60,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/60",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=60"
+              },
+              "subcategories": [
+
+              ]
+            },
+            {
+              "category_name": "Dining & Food",
+              "category_key": 39,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/39",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=39"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Casual & Fine Dining",
+                  "category_key": 1009,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Dining & Food",
+                  "category_parent_key": 39,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1009",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/39",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1009"
+                  }
+                },
+                {
+                  "category_name": "Catering",
+                  "category_key": 1011,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Dining & Food",
+                  "category_parent_key": 39,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1011",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/39",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1011"
+                  }
+                },
+                {
+                  "category_name": "Convenience Stores",
+                  "category_key": 1012,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Dining & Food",
+                  "category_parent_key": 39,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1012",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/39",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1012"
+                  }
+                },
+                {
+                  "category_name": "Desserts & Snacks",
+                  "category_key": 1007,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Dining & Food",
+                  "category_parent_key": 39,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1007",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/39",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1007"
+                  }
+                },
+                {
+                  "category_name": "Fast Food",
+                  "category_key": 1008,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Dining & Food",
+                  "category_parent_key": 39,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1008",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/39",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1008"
+                  }
+                },
+                {
+                  "category_name": "Specialty Foods & Gifts",
+                  "category_key": 1010,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Dining & Food",
+                  "category_parent_key": 39,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1010",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/39",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1010"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Educators Only",
+              "category_key": 1113,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/1113",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1113"
+              },
+              "subcategories": [
+
+              ]
+            },
+            {
+              "category_name": "Entertainment & Recreation",
+              "category_key": 59,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/59",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=59"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Amusement Parks",
+                  "category_key": 1018,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Entertainment & Recreation",
+                  "category_parent_key": 59,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1018",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/59",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1018"
+                  }
+                },
+                {
+                  "category_name": "Classes",
+                  "category_key": 1019,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Entertainment & Recreation",
+                  "category_parent_key": 59,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1019",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/59",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1019"
+                  }
+                },
+                {
+                  "category_name": "Concerts & Events",
+                  "category_key": 1014,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Entertainment & Recreation",
+                  "category_parent_key": 59,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1014",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/59",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1014"
+                  }
+                },
+                {
+                  "category_name": "Fun Centers",
+                  "category_key": 1013,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Entertainment & Recreation",
+                  "category_parent_key": 59,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1013",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/59",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1013"
+                  }
+                },
+                {
+                  "category_name": "Museums, Zoos & Tours",
+                  "category_key": 1015,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Entertainment & Recreation",
+                  "category_parent_key": 59,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1015",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/59",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1015"
+                  }
+                },
+                {
+                  "category_name": "Outdoor Adventure",
+                  "category_key": 1016,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Entertainment & Recreation",
+                  "category_parent_key": 59,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1016",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/59",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1016"
+                  }
+                },
+                {
+                  "category_name": "Sporting Events",
+                  "category_key": 1017,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Entertainment & Recreation",
+                  "category_parent_key": 59,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1017",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/59",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1017"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Golf",
+              "category_key": 48,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/48",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=48"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Golf Apparel",
+                  "category_key": 1021,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Golf",
+                  "category_parent_key": 48,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1021",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/48",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1021"
+                  }
+                },
+                {
+                  "category_name": "Golf Courses",
+                  "category_key": 1020,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Golf",
+                  "category_parent_key": 48,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1020",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/48",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1020"
+                  }
+                },
+                {
+                  "category_name": "Golf Equipment",
+                  "category_key": 1022,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Golf",
+                  "category_parent_key": 48,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1022",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/48",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1022"
+                  }
+                },
+                {
+                  "category_name": "Golf Instruction",
+                  "category_key": 1023,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Golf",
+                  "category_parent_key": 48,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1023",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/48",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1023"
+                  }
+                },
+                {
+                  "category_name": "Golf Packages",
+                  "category_key": 1024,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Golf",
+                  "category_parent_key": 48,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1024",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/48",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1024"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Health & Beauty",
+              "category_key": 53,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=53"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Chiropractic",
+                  "category_key": 1025,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1025",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1025"
+                  }
+                },
+                {
+                  "category_name": "Cosmetics & Skin Care",
+                  "category_key": 1035,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1035",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1035"
+                  }
+                },
+                {
+                  "category_name": "Day Spa",
+                  "category_key": 1026,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1026",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1026"
+                  }
+                },
+                {
+                  "category_name": "Dental",
+                  "category_key": 1027,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1027",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1027"
+                  }
+                },
+                {
+                  "category_name": "Fitness Centers",
+                  "category_key": 1031,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1031",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1031"
+                  }
+                },
+                {
+                  "category_name": "Fitness Equipment",
+                  "category_key": 1028,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1028",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1028"
+                  }
+                },
+                {
+                  "category_name": "Health Products",
+                  "category_key": 1029,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1029",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1029"
+                  }
+                },
+                {
+                  "category_name": "Hearing",
+                  "category_key": 1030,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1030",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1030"
+                  }
+                },
+                {
+                  "category_name": "Massage",
+                  "category_key": 1032,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1032",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1032"
+                  }
+                },
+                {
+                  "category_name": "Medical",
+                  "category_key": 1033,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1033",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1033"
+                  }
+                },
+                {
+                  "category_name": "Salon",
+                  "category_key": 1036,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1036",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1036"
+                  }
+                },
+                {
+                  "category_name": "Tanning Salon",
+                  "category_key": 1034,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1034",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1034"
+                  }
+                },
+                {
+                  "category_name": "Vision",
+                  "category_key": 1037,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1037",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1037"
+                  }
+                },
+                {
+                  "category_name": "Weight Management",
+                  "category_key": 1038,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Health & Beauty",
+                  "category_parent_key": 53,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1038",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/53",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1038"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Home & Garden",
+              "category_key": 1039,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1039"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Appliances",
+                  "category_key": 1042,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1042",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1042"
+                  }
+                },
+                {
+                  "category_name": "Cleaning",
+                  "category_key": 1045,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1045",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1045"
+                  }
+                },
+                {
+                  "category_name": "Flooring",
+                  "category_key": 1043,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1043",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1043"
+                  }
+                },
+                {
+                  "category_name": "Garden Centers",
+                  "category_key": 1050,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1050",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1050"
+                  }
+                },
+                {
+                  "category_name": "Hardware Stores",
+                  "category_key": 1049,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1049",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1049"
+                  }
+                },
+                {
+                  "category_name": "Home Improvement & Repairs",
+                  "category_key": 1044,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1044",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1044"
+                  }
+                },
+                {
+                  "category_name": "Landscaping",
+                  "category_key": 1048,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1048",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1048"
+                  }
+                },
+                {
+                  "category_name": "Pest Control",
+                  "category_key": 1047,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1047",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1047"
+                  }
+                },
+                {
+                  "category_name": "Siding",
+                  "category_key": 1041,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1041",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1041"
+                  }
+                },
+                {
+                  "category_name": "Water purification/softening",
+                  "category_key": 1046,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1046",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1046"
+                  }
+                },
+                {
+                  "category_name": "Windows",
+                  "category_key": 1040,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Home & Garden",
+                  "category_parent_key": 1039,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1040",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/1039",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1040"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Hotel",
+              "category_key": 44,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/44",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=44"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Hotel",
+                  "category_key": 1052,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Hotel",
+                  "category_parent_key": 44,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1052",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/44",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1052"
+                  }
+                },
+                {
+                  "category_name": "Motel",
+                  "category_key": 1053,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Hotel",
+                  "category_parent_key": 44,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1053",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/44",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1053"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Movies",
+              "category_key": 56,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/56",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=56"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Movie Rentals",
+                  "category_key": 1054,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Movies",
+                  "category_parent_key": 56,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1054",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/56",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1054"
+                  }
+                },
+                {
+                  "category_name": "Movie Theaters",
+                  "category_key": 1055,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Movies",
+                  "category_parent_key": 56,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1055",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/56",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1055"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Services",
+              "category_key": 50,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=50"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Appliance Repair",
+                  "category_key": 1056,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1056",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1056"
+                  }
+                },
+                {
+                  "category_name": "Cable & Satellite",
+                  "category_key": 1075,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1075",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1075"
+                  }
+                },
+                {
+                  "category_name": "Carpet Cleaner",
+                  "category_key": 1057,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1057",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1057"
+                  }
+                },
+                {
+                  "category_name": "Cell Phone",
+                  "category_key": 1058,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1058",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1058"
+                  }
+                },
+                {
+                  "category_name": "Child Care",
+                  "category_key": 1059,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1059",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1059"
+                  }
+                },
+                {
+                  "category_name": "Dry Cleaning",
+                  "category_key": 1060,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1060",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1060"
+                  }
+                },
+                {
+                  "category_name": "Educational Services",
+                  "category_key": 1067,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1067",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1067"
+                  }
+                },
+                {
+                  "category_name": "Internet Service Provider",
+                  "category_key": 1063,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1063",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1063"
+                  }
+                },
+                {
+                  "category_name": "Legal",
+                  "category_key": 1064,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1064",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1064"
+                  }
+                },
+                {
+                  "category_name": "Locksmith",
+                  "category_key": 1065,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1065",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1065"
+                  }
+                },
+                {
+                  "category_name": "Mail/Copy/Print",
+                  "category_key": 1066,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1066",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1066"
+                  }
+                },
+                {
+                  "category_name": "Moving & Storage",
+                  "category_key": 1068,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1068",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1068"
+                  }
+                },
+                {
+                  "category_name": "Office Services",
+                  "category_key": 1069,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1069",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1069"
+                  }
+                },
+                {
+                  "category_name": "Party & Event Rental",
+                  "category_key": 1076,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1076",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1076"
+                  }
+                },
+                {
+                  "category_name": "Photography & Photo Printing",
+                  "category_key": 1070,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1070",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1070"
+                  }
+                },
+                {
+                  "category_name": "Tax Services",
+                  "category_key": 1071,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1071",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1071"
+                  }
+                },
+                {
+                  "category_name": "Transportation",
+                  "category_key": 1072,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1072",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1072"
+                  }
+                },
+                {
+                  "category_name": "Tuxedo Rental",
+                  "category_key": 1073,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1073",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1073"
+                  }
+                },
+                {
+                  "category_name": "Weddings",
+                  "category_key": 1074,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Services",
+                  "category_parent_key": 50,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1074",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/50",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1074"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Shopping",
+              "category_key": 45,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=45"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Apparel & Accessories",
+                  "category_key": 1077,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1077",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1077"
+                  }
+                },
+                {
+                  "category_name": "Art",
+                  "category_key": 1078,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1078",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1078"
+                  }
+                },
+                {
+                  "category_name": "Baby/Maternity",
+                  "category_key": 1079,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1079",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1079"
+                  }
+                },
+                {
+                  "category_name": "Bath & Body",
+                  "category_key": 1080,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1080",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1080"
+                  }
+                },
+                {
+                  "category_name": "Boutique",
+                  "category_key": 1081,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1081",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1081"
+                  }
+                },
+                {
+                  "category_name": "Bridal",
+                  "category_key": 1082,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1082",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1082"
+                  }
+                },
+                {
+                  "category_name": "Crafts",
+                  "category_key": 1083,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1083",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1083"
+                  }
+                },
+                {
+                  "category_name": "Cycling",
+                  "category_key": 1084,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1084",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1084"
+                  }
+                },
+                {
+                  "category_name": "Department Stores",
+                  "category_key": 1085,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1085",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1085"
+                  }
+                },
+                {
+                  "category_name": "Electronics",
+                  "category_key": 1086,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1086",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1086"
+                  }
+                },
+                {
+                  "category_name": "Flowers",
+                  "category_key": 1087,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1087",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1087"
+                  }
+                },
+                {
+                  "category_name": "Fragrance",
+                  "category_key": 1088,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1088",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1088"
+                  }
+                },
+                {
+                  "category_name": "Framing",
+                  "category_key": 1089,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1089",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1089"
+                  }
+                },
+                {
+                  "category_name": "Furniture",
+                  "category_key": 1090,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1090",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1090"
+                  }
+                },
+                {
+                  "category_name": "Gifts",
+                  "category_key": 1091,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1091",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1091"
+                  }
+                },
+                {
+                  "category_name": "Jewelry",
+                  "category_key": 1092,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1092",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1092"
+                  }
+                },
+                {
+                  "category_name": "Luggage & Travel Accessories",
+                  "category_key": 1093,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1093",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1093"
+                  }
+                },
+                {
+                  "category_name": "Movies, Music & Books",
+                  "category_key": 1094,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1094",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1094"
+                  }
+                },
+                {
+                  "category_name": "Office Supplies",
+                  "category_key": 1095,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1095",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1095"
+                  }
+                },
+                {
+                  "category_name": "Other Shopping",
+                  "category_key": 1102,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1102",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1102"
+                  }
+                },
+                {
+                  "category_name": "Outdoor Equipment",
+                  "category_key": 1096,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1096",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1096"
+                  }
+                },
+                {
+                  "category_name": "Pets",
+                  "category_key": 1097,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1097",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1097"
+                  }
+                },
+                {
+                  "category_name": "Publications",
+                  "category_key": 1098,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1098",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1098"
+                  }
+                },
+                {
+                  "category_name": "Sporting Goods",
+                  "category_key": 1099,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1099",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1099"
+                  }
+                },
+                {
+                  "category_name": "Toys",
+                  "category_key": 1100,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1100",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1100"
+                  }
+                },
+                {
+                  "category_name": "Wireless",
+                  "category_key": 1101,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Shopping",
+                  "category_parent_key": 45,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1101",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/45",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1101"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Ski & Snowboard",
+              "category_key": 55,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/55",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=55"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Cross Country Ski",
+                  "category_key": 1106,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Ski & Snowboard",
+                  "category_parent_key": 55,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1106",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/55",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1106"
+                  }
+                },
+                {
+                  "category_name": "Ski Gear & Rentals",
+                  "category_key": 1103,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Ski & Snowboard",
+                  "category_parent_key": 55,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1103",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/55",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1103"
+                  }
+                },
+                {
+                  "category_name": "Ski Lessons",
+                  "category_key": 1105,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Ski & Snowboard",
+                  "category_parent_key": 55,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1105",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/55",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1105"
+                  }
+                },
+                {
+                  "category_name": "Ski Packages",
+                  "category_key": 1108,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Ski & Snowboard",
+                  "category_parent_key": 55,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1108",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/55",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1108"
+                  }
+                },
+                {
+                  "category_name": "Ski Resort",
+                  "category_key": 1107,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Ski & Snowboard",
+                  "category_parent_key": 55,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1107",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/55",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1107"
+                  }
+                },
+                {
+                  "category_name": "Snow Sports",
+                  "category_key": 1104,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Ski & Snowboard",
+                  "category_parent_key": 55,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1104",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/55",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1104"
+                  }
+                }
+              ]
+            },
+            {
+              "category_name": "Travel",
+              "category_key": 38,
+              "category_type": "category",
+              "category_parent_name": null,
+              "category_parent_key": null,
+              "links": {
+                "show_category": "https://offer-stage.adcrws.com/v1/categories/38",
+                "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=38"
+              },
+              "subcategories": [
+                {
+                  "category_name": "Air & Parking",
+                  "category_key": 1109,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Travel",
+                  "category_parent_key": 38,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1109",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/38",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1109"
+                  }
+                },
+                {
+                  "category_name": "Resorts & Spas",
+                  "category_key": 1110,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Travel",
+                  "category_parent_key": 38,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1110",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/38",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1110"
+                  }
+                },
+                {
+                  "category_name": "Tours",
+                  "category_key": 1111,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Travel",
+                  "category_parent_key": 38,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1111",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/38",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1111"
+                  }
+                },
+                {
+                  "category_name": "Travel Packages & Tours",
+                  "category_key": 1112,
+                  "category_type": "subcategory",
+                  "category_parent_name": "Travel",
+                  "category_parent_key": 38,
+                  "links": {
+                    "show_category": "https://offer-stage.adcrws.com/v1/categories/1112",
+                    "show_parent_category": "https://offer-stage.adcrws.com/v1/categories/38",
+                    "find_offers_in_this_category": "https://offer-stage.adcrws.com/v1/offers?category_key=1112"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:17:08 GMT
+recorded_with: VCR 3.0.1

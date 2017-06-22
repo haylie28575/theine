@@ -1,0 +1,156 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://report-demo.adcrws.com/v1/all_usage
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 23:10:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"2bffd12d21ecd40fb5510c6365fa18f1"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e0bc0e3a-ee5d-4210-9c15-7f7344dab488
+      X-Runtime:
+      - '0.545086'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "info": {
+            "total_api_calls": 49049,
+            "time_period": "2016-02-01T00:00:00Z to now",
+            "interval": "1d",
+            "report_env": "demo"
+          },
+          "api_calls_over_time": [
+            {
+              "timestamp": "2016-02-01T00:00:00.000",
+              "api_call_count": 1850
+            },
+            {
+              "timestamp": "2016-02-02T00:00:00.000",
+              "api_call_count": 1812
+            },
+            {
+              "timestamp": "2016-02-03T00:00:00.000",
+              "api_call_count": 1065
+            },
+            {
+              "timestamp": "2016-02-04T00:00:00.000",
+              "api_call_count": 1198
+            },
+            {
+              "timestamp": "2016-02-05T00:00:00.000",
+              "api_call_count": 1122
+            },
+            {
+              "timestamp": "2016-02-06T00:00:00.000",
+              "api_call_count": 1667
+            },
+            {
+              "timestamp": "2016-02-07T00:00:00.000",
+              "api_call_count": 1338
+            },
+            {
+              "timestamp": "2016-02-08T00:00:00.000",
+              "api_call_count": 1744
+            },
+            {
+              "timestamp": "2016-02-09T00:00:00.000",
+              "api_call_count": 1761
+            },
+            {
+              "timestamp": "2016-02-10T00:00:00.000",
+              "api_call_count": 1741
+            },
+            {
+              "timestamp": "2016-02-11T00:00:00.000",
+              "api_call_count": 2892
+            },
+            {
+              "timestamp": "2016-02-12T00:00:00.000",
+              "api_call_count": 2684
+            },
+            {
+              "timestamp": "2016-02-13T00:00:00.000",
+              "api_call_count": 1168
+            },
+            {
+              "timestamp": "2016-02-14T00:00:00.000",
+              "api_call_count": 699
+            },
+            {
+              "timestamp": "2016-02-15T00:00:00.000",
+              "api_call_count": 1808
+            },
+            {
+              "timestamp": "2016-02-16T00:00:00.000",
+              "api_call_count": 3409
+            },
+            {
+              "timestamp": "2016-02-17T00:00:00.000",
+              "api_call_count": 7127
+            },
+            {
+              "timestamp": "2016-02-18T00:00:00.000",
+              "api_call_count": 4558
+            },
+            {
+              "timestamp": "2016-02-19T00:00:00.000",
+              "api_call_count": 7410
+            },
+            {
+              "timestamp": "2016-02-20T00:00:00.000",
+              "api_call_count": 152
+            },
+            {
+              "timestamp": "2016-02-21T00:00:00.000",
+              "api_call_count": 756
+            },
+            {
+              "timestamp": "2016-02-22T00:00:00.000",
+              "api_call_count": 1088
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:10:17 GMT
+recorded_with: VCR 3.0.1

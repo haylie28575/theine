@@ -1,0 +1,198 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://token-stage.adcrws.com/v1/filter
+    body:
+      encoding: UTF-8
+      string: '{"program_filter": {"offers": [{"or":[{"terms":{"categories.category_key":[
+        39, 1007, 1008, 1009, 1010, 1011, 1012 ] } }, {"terms":{"categories.category_parent_key":[
+        39, 1007, 1008, 1009, 1010, 1011, 1012]} } ]}, {"not": {"or": [{"terms":{"categories.category_key":[
+        1007 ] } }, {"terms":{"categories.category_parent_key":[ 1007 ] } } ] } }
+        ] } }'
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 20:16:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - POST
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"f2c6870b6fa1f97136976607f16e1d44"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6d0cf822-ae41-4ae4-912b-76c13dac89e1
+      X-Runtime:
+      - '0.169178'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "offers": {
+            "offer_count": 111806,
+            "categories": [
+              {
+                "category_name": "Dining & Food",
+                "category_key": 39,
+                "category_type": "category",
+                "offer_count": 111806,
+                "subcategories": [
+                  {
+                    "category_name": "Casual & Fine Dining",
+                    "category_key": 1009,
+                    "category_type": "subcategory",
+                    "category_parent_key": 39,
+                    "offer_count": 65246
+                  },
+                  {
+                    "category_name": "Fast Food",
+                    "category_key": 1008,
+                    "category_type": "subcategory",
+                    "category_parent_key": 39,
+                    "offer_count": 41935
+                  },
+                  {
+                    "category_name": "Specialty Foods & Gifts",
+                    "category_key": 1010,
+                    "category_type": "subcategory",
+                    "category_parent_key": 39,
+                    "offer_count": 2357
+                  },
+                  {
+                    "category_name": "Convenience Stores",
+                    "category_key": 1012,
+                    "category_type": "subcategory",
+                    "category_parent_key": 39,
+                    "offer_count": 2311
+                  },
+                  {
+                    "category_name": "Catering",
+                    "category_key": 1011,
+                    "category_type": "subcategory",
+                    "category_parent_key": 39,
+                    "offer_count": 95
+                  }
+                ]
+              },
+              {
+                "category_name": "Entertainment & Recreation",
+                "category_key": 59,
+                "category_type": "category",
+                "offer_count": 1151,
+                "subcategories": [
+                  {
+                    "category_name": "Fun Centers",
+                    "category_key": 1013,
+                    "category_type": "subcategory",
+                    "category_parent_key": 59,
+                    "offer_count": 1112
+                  },
+                  {
+                    "category_name": "Concerts & Events",
+                    "category_key": 1014,
+                    "category_type": "subcategory",
+                    "category_parent_key": 59,
+                    "offer_count": 39
+                  }
+                ]
+              },
+              {
+                "category_name": "Automotive",
+                "category_key": 51,
+                "category_type": "category",
+                "offer_count": 4,
+                "subcategories": [
+                  {
+                    "category_name": "Gas Station",
+                    "category_key": 1004,
+                    "category_type": "subcategory",
+                    "category_parent_key": 51,
+                    "offer_count": 4
+                  }
+                ]
+              },
+              {
+                "category_name": "Shopping",
+                "category_key": 45,
+                "category_type": "category",
+                "offer_count": 3,
+                "subcategories": [
+                  {
+                    "category_name": "Bath & Body",
+                    "category_key": 1080,
+                    "category_type": "subcategory",
+                    "category_parent_key": 45,
+                    "offer_count": 2
+                  },
+                  {
+                    "category_name": "Furniture",
+                    "category_key": 1090,
+                    "category_type": "subcategory",
+                    "category_parent_key": 45,
+                    "offer_count": 1
+                  }
+                ]
+              }
+            ],
+            "redemption_methods": [
+              {
+                "redemption_method": "instore_print",
+                "offer_count": 57561
+              },
+              {
+                "redemption_method": "link",
+                "offer_count": 55722
+              },
+              {
+                "redemption_method": "instore",
+                "offer_count": 35699
+              },
+              {
+                "redemption_method": "call",
+                "offer_count": 1604
+              }
+            ]
+          },
+          "categories": {
+            "category_count": 125
+          },
+          "stores": {
+            "store_count": 26312
+          },
+          "locations": {
+            "location_count": 268961
+          }
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:16:52 GMT
+recorded_with: VCR 3.0.1

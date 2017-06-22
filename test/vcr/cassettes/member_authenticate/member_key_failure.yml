@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://mms-stage.adcrws.com/v1/auth?member_key=thisisaverybadmember_keyman1234556badbadbad
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<ACCESS_TOKEN>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10110
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 22 Feb 2016 23:05:58 GMT
+    body:
+      encoding: UTF-8
+      string: '{"message":"No active member with specified credentials found.","status":401,"error_code":"AUTHENTICATION_FAILURE_MEMBER_NOT_FOUND"}'
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 23:06:01 GMT
+recorded_with: VCR 3.0.1

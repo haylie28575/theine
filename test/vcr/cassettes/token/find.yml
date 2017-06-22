@@ -1,0 +1,107 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://token-stage.adcrws.com/v1/tokens/1f4cfbfec58ce429ac089dea6502473d380e8a32b6960eac40b118b8a9964da3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - ACCESS_TOKEN
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Mon, 22 Feb 2016 20:16:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      Etag:
+      - '"730f58e760958b4a8cd7f27bb5e2961a"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d1bd95e3-e847-4371-b0c4-7463e62c8dcd
+      X-Runtime:
+      - '0.013507'
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "oauth_token": {
+            "application_id": 3960,
+            "token": "1f4cfbfec58ce429ac089dea6502473d380e8a32b6960eac40b118b8a9964da3",
+            "expires_in": null,
+            "revoked_at": null,
+            "created_at": "2016-02-16T13:34:42.793-07:00",
+            "oauth_access_token_id": 3995,
+            "application_name": "RWS API - RBI_MCID (pcid:200278)",
+            "application_owner_id": 279477590,
+            "application_owner_type": "Program",
+            "program_id": 279477590,
+            "program_name": "RWS API - RBI_MCID",
+            "program_customer_identifier": "200278",
+            "program_start_dts": "2016-02-16T06:30:18.392-07:00",
+            "program_end_dts": "2019-02-16T06:30:18.392-07:00",
+            "organization_id": 160,
+            "organization_name": "Access Development",
+            "organization_customer_identifier": "160",
+            "filter_id": null,
+            "filter_name": null,
+            "filter": null,
+            "program_filter_id": null,
+            "domains": [
+
+            ],
+            "application_scopes": [
+              "internal"
+            ],
+            "help_phone_number": "1-800-331-8867",
+            "program_info_id": 279477590,
+            "default_distance": 25,
+            "force_update": false,
+            "color_theme": {
+              "name": "default",
+              "primary": "#2c3e50",
+              "primary-light": "#3e5871",
+              "accent": "#3498db",
+              "accent-light": "#5faee3"
+            },
+            "email_opt_out": false,
+            "mobile_logo": null,
+            "mobile_teaser": null,
+            "member_key_label": "Member ID",
+            "member_key_hint_label": null,
+            "indexed_at": "2016-02-16T20:29:32.163Z",
+            "token_status": "valid"
+          }
+        }
+    http_version: 
+  recorded_at: Mon, 22 Feb 2016 20:16:59 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,158 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://mms-stage.adcrws.com/v1/members/API_TEST/favorites/locations/5454532
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Access-Token:
+      - "<TOKEN_WITHOUT_FILTERS_WITH_PROGRAM_OFFERS>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - '0'
+      X-Frame-Options:
+      - DENY
+      X-Application-Context:
+      - application:main,stage:10120
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 23 Feb 2016 17:15:14 GMT
+    body:
+      encoding: UTF-8
+      string: '{"links":{"show_favorite_locations":"http://mms-stage.adcrws.com/v1/members/API_TEST/favorites/locations","show_favorite_offers":"http://mms-stage.adcrws.com/v1/members/API_TEST/favorites/offers","show_favorite_stores":"http://mms-stage.adcrws.com/v1/members/API_TEST/favorites/stores"},"favorites":[{"links":{"show_favorite_location":"http://mms-stage.adcrws.com/v1/members/API_TEST/favorites/locations/5454532"},"favorited_date":"2016-02-23T17:12:49.966+0000","favorite_type":"location"}]}'
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 17:15:15 GMT
+- request:
+    method: get
+    uri: https://report-stage.adcrws.com/v1/members/API_TEST/favorites/locations/5454532
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Access-Token:
+      - "<TOKEN_WITHOUT_FILTERS_WITH_PROGRAM_OFFERS>"
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Tue, 23 Feb 2016 17:15:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Request-Method:
+      - GET
+      Access-Control-Allow-Headers:
+      - Origin,  X-Requested-With, Content-Type, Accept, Authorization, Access-Token
+      Access-Control-Max-Age:
+      - '1728000'
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '976'
+      Etag:
+      - '"c9e7c1afa10bba5b55d82ccc65ebdc81"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f4de33b7-6add-4a47-bc9a-72fa47a3db46
+      X-Runtime:
+      - '0.018531'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICJpbmZvIjogewogICAgInRvdGFsX3Jlc3VsdHMiOiAxLAogICAgImN1
+        cnJlbnRfcGFnZSI6IDEsCiAgICAidG90YWxfcGFnZXMiOiAxLAogICAgInJl
+        c3VsdHNfcGVyX3BhZ2UiOiAxCiAgfSwKICAiZmF2b3JpdGVzIjogWwogICAg
+        ewogICAgICAiZmF2b3JpdGVkX2RhdGUiOiAiMjAxNi0wMi0yMlQxNjo1ODoy
+        NC42OTRaIiwKICAgICAgImZhdm9yaXRlX3R5cGUiOiAibG9jYXRpb24iLAog
+        ICAgICAibGlua3MiOiB7CiAgICAgICAgInNob3dfZmF2b3JpdGUiOiAiaHR0
+        cHM6Ly9tbXMtc3RhZ2UuYWRjcndzLmNvbS92MS9tZW1iZXJzL0FQSV9URVNU
+        L2Zhdm9yaXRlcy9sb2NhdGlvbnMvNTQ1NDUzMiIKICAgICAgfSwKICAgICAg
+        Im1lbWJlciI6IHsKICAgICAgICAibWVtYmVyX2tleSI6ICJBUElfVEVTVCIs
+        CiAgICAgICAgInByb2dyYW1fa2V5IjogIjIwMDE1OCIsCiAgICAgICAgInBy
+        b2dyYW1fbmFtZSI6ICJSV1MgQVBJIC0gV2l0aCBQcm9ncmFtIFNwZWNpZmlj
+        IE9mZmVyIiwKICAgICAgICAib3JnYW5pemF0aW9uX2tleSI6ICIxNjAiLAog
+        ICAgICAgICJvcmdhbml6YXRpb25fbmFtZSI6ICJBY2Nlc3MgRGV2ZWxvcG1l
+        bnQiCiAgICAgIH0sCiAgICAgICJvZmZlciI6IG51bGwsCiAgICAgICJsb2Nh
+        dGlvbiI6IHsKICAgICAgICAicGh5c2ljYWxfbG9jYXRpb24iOiB7CiAgICAg
+        ICAgICAibG9jYXRpb25fbmFtZSI6ICJDb2xkIFN0b25lIENyZWFtZXJ5IiwK
+        ICAgICAgICAgICJ3ZWJfYWRkcmVzcyI6ICJodHRwczovL3d3dy5jb2xkc3Rv
+        bmVjcmVhbWVyeS5jb20vIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6IG51
+        bGwsCiAgICAgICAgICAibG9jYXRpb25fa2V5IjogNTQ1NDUzMiwKICAgICAg
+        ICAgICJwaG9uZV9udW1iZXIiOiAiODAxLTk3NC0zMDMzIiwKICAgICAgICAg
+        ICJwb3N0YWxfY29kZSI6ICI4NDMzNyIsCiAgICAgICAgICAiY291bnRyeSI6
+        ICJVUyIsCiAgICAgICAgICAic3RyZWV0X2FkZHJlc3MiOiAiMjUgUyAxNjAw
+        IEUiLAogICAgICAgICAgImV4dGVuZGVkX3N0cmVldF9hZGRyZXNzIjogIiIs
+        CiAgICAgICAgICAiY2l0eV9sb2NhbGl0eSI6ICJUcmVtb250b24iLAogICAg
+        ICAgICAgInN0YXRlX3JlZ2lvbiI6ICJVVCIsCiAgICAgICAgICAiZ2VvbG9j
+        YXRpb25fYXJyYXkiOiBbCiAgICAgICAgICAgIC0xMTIuMTQxODQsCiAgICAg
+        ICAgICAgIDQxLjcxMTg2CiAgICAgICAgICBdLAogICAgICAgICAgImdlb2xv
+        Y2F0aW9uIjogewogICAgICAgICAgICAibGF0IjogNDEuNzExODYsCiAgICAg
+        ICAgICAgICJsb24iOiAtMTEyLjE0MTg0CiAgICAgICAgICB9CiAgICAgICAg
+        fSwKICAgICAgICAibG9jYXRpb25fc3RvcmUiOiB7CiAgICAgICAgICAibmFt
+        ZSI6ICJDb2xkIFN0b25lIENyZWFtZXJ5IiwKICAgICAgICAgICJkZXNjcmlw
+        dGlvbiI6ICJJZiBpdCBoYXMgYW55dGhpbmcgdG8gZG8gd2l0aCBpY2UgY3Jl
+        YW0sIGl0IGhhcyBldmVyeXRoaW5nIHRvIGRvIHdpdGggQ29sZCBTdG9uZSBD
+        cmVhbWVyeS4gRnJvbSB1bmlxdWUgaWNlIGNyZWFtIGNyZWF0aW9ucyB0byBz
+        bW9vdGhpZXMsIGNha2VzIGFuZCBzaGFrZXMg4oCTIG5vYm9keSBzZXJ2ZXMg
+        dXAgdGhlIHVsdGltYXRlIGluZHVsZ2VuY2UgbGlrZSBDb2xkIFN0b25lLiAg
+        SXQgc3RhcnRzIHdpdGggdXNpbmcgdGhlIGhpZ2hlc3QgcXVhbGl0eSBpbmdy
+        ZWRpZW50cyBhbmQgZW5kcyB3aXRoIG91ciBzaWduYXR1cmUgcHJvY2VzcyBm
+        b3IgcHJlcGFyaW5nIHlvdXIgY3VzdG9tIGNyZWF0aW9uIG9uIGEgZnJvemVu
+        IGdyYW5pdGUgc3RvbmUuIiwKICAgICAgICAgICJzdG9yZV9rZXkiOiAxODkz
+        ODMyNAogICAgICAgIH0sCiAgICAgICAgImxvZ29fdXJsIjogImh0dHBzOi8v
+        ZGVhbHMuYWNjZXNzZGV2ZWxvcG1lbnQuY29tL2ltYWdlcy9icmFuZEltYWdl
+        L2JyYW5kLzk5NzQ3NDExIgogICAgICB9LAogICAgICAic3RvcmUiOiBudWxs
+        CiAgICB9CiAgXSwKICAibGlua3MiOiB7CiAgICAic2hvd19mYXZvcml0ZV9s
+        b2NhdGlvbnMiOiAiaHR0cHM6Ly9tbXMtc3RhZ2UuYWRjcndzLmNvbS92MS9t
+        ZW1iZXJzL0FQSV9URVNUL2Zhdm9yaXRlcy9sb2NhdGlvbnMiLAogICAgInNo
+        b3dfZmF2b3JpdGVfb2ZmZXJzIjogImh0dHBzOi8vbW1zLXN0YWdlLmFkY3J3
+        cy5jb20vdjEvbWVtYmVycy9BUElfVEVTVC9mYXZvcml0ZXMvb2ZmZXJzIiwK
+        ICAgICJzaG93X2Zhdm9yaXRlX3N0b3JlcyI6ICJodHRwczovL21tcy1zdGFn
+        ZS5hZGNyd3MuY29tL3YxL21lbWJlcnMvQVBJX1RFU1QvZmF2b3JpdGVzL3N0
+        b3JlcyIKICB9Cn0=
+    http_version: 
+  recorded_at: Tue, 23 Feb 2016 17:15:15 GMT
+recorded_with: VCR 3.0.1
